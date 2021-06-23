@@ -14,15 +14,6 @@ import getEmployeeDetails from './Binddemo';
 import reportWebVitals from './reportWebVitals';
 
 
-
-let checkn=()=>{
-  let x=20
-  let y=2
-  return (x%2)? (console.log('Odd'+x)):(console.log('Even'+y))
-}
-
-const e=<button onClick={checkn}>clickkkkkkkk</button>
-
 ReactDOM.render(
     <Educator name='more' />,
     // getEmployeeDetails(),
