@@ -13,7 +13,7 @@ class Educator extends React.Component {
          <div> 
            accessing data const             
            </div>
-           <Child data={this.state.counter}></Child>
+           {/* <Child data={this.state.counter}></Child> */}
            <li><a href="mailto:mad4746@gmail.com">Email</a></li>
            <div class="container">
             <h1 class="display-2">H1 heading looks like this</h1>
@@ -34,12 +34,12 @@ class Educator extends React.Component {
            )}
        };
   
-  class Child extends React.Component{
-    render(){
-    return (
-       <div>
-       <h3> Accessing data{this.props.data}</h3>
-       </div>);
-      }
-  }
+  // class Child extends React.Component{
+  //   render(){
+  //   return (
+  //      <div>
+  //      <h3> Accessing data{this.props.data}</h3>
+  //      </div>);
+  //     }
+  // }
 export default Educator;
