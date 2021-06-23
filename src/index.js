@@ -3,20 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Educator from './Educator';
-import Demo from './Demo';
-import State4 from './State4';
-import Vali from './Vali';
-import Ax from './Ax';
-import gentable from './Jsxdemo';
-import generateTable from './jsxdemo2';
-import getEmployeeDetails from './Binddemo';
+
 
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
     <Educator name='more' />,
-    // getEmployeeDetails(),
   document.getElementById('root')
 );
 
