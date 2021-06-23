@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import Educator from './Educator';
+import Empdet from './Empdet';
+import CompProp from './CompProp';
+import NestProp from './NestProp';
 
 
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-    <Educator name='more' />,
+    <Empdet />,
+    // getEmployeeDetails(),
   document.getElementById('root')
 );
 
